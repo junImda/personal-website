@@ -1,39 +1,38 @@
 body{
-
+	margin: auto;
 	font-size: 16px;
 	color: black;
 	background-color: white;
 	font-family: 'Oxygen', sans-serif;
 }
 
-#header-nav{
-	text-align: center;
+#title{
+	margin:auto;
 	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15vh;
 	border-radius: 0;
 	border: 0;
-	height: 40vh;
-}
-
-.navbar-header {
-    float: left;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-}
-
-.navbar-brand{
-    float: left;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-    text-decoration: none;
+	height: 20vh;
+	padding: 15px;
 }
 
 #name{
+	margin: auto;
 	text-decoration: none;
 	text-align: center;
-	margin: auto;
+	vertical-align: middle;
 	width: 50%;
 	color: white;
-	font-size: 10vh;
+	font-size: 5vh;
+}
+
+#initial-description{
+	font-size: 10px;
+	color:white;
+}
+
+.navbar navbar-inverse{
+	background-color: black;
 }
