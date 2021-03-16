@@ -11,11 +11,22 @@ body{
 	background-color: black;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 15vh;
+	line-height: 5vh;
+	vertical-align: middle;
 	border-radius: 0;
 	border: 0;
 	height: 20vh;
 	padding: 15px;
+	
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+}
+
+#mynamediv{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
 }
 
 #name{
@@ -30,9 +41,21 @@ body{
 
 #initial-description{
 	font-size: 10px;
-	color:white;
+	color:blue;
 }
 
 .navbar navbar-inverse{
 	background-color: black;
+}
+
+.glyphiconlist{
+	text-align: center;
+}
+
+iframe{
+	margin: 0 auto;
+	display:flex;
+	position: relative;
+	background-color: #777;
+
 }
