@@ -17,15 +17,15 @@ body{
 	border: 0;
 	height: 20vh;
 	padding: 15px;
-	
+
 	display: flex;
-	justify-content: center; /* align horizontal */
+	justify-content: center;
 	align-items: center;
 }
 
 #mynamediv{
 	display: flex;
-	justify-content: center; /* align horizontal */
+	justify-content: center; 
 	align-items: center;
 }
 
@@ -47,15 +47,45 @@ body{
 .navbar navbar-inverse{
 	background-color: black;
 }
+.navbar{
+	border-radius: 0px;
+}
 
 .glyphiconlist{
 	text-align: center;
 }
 
-iframe{
-	margin: 0 auto;
-	display:flex;
-	position: relative;
-	background-color: #777;
 
+/*reminder for responsive iframe to make it resizable if mobile device used */
+.responsive-iframe {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
 }
+
+.responsive-iframe-2-left{
+  width: 49%;
+  float:left;
+  padding-top: 10px;
+  padding-left: 5%;
+   padding-right: 1%;
+}
+
+.responsive-iframe-2-right{
+  width: 49%;
+  float:right;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.blog{
+  background-color: #ccc;
+  border:1px solid #ff0000;	
+}
+
+iframe{
+	display: block;
+	border-style: none;
+}
+
+
