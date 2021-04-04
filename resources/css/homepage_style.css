@@ -12,6 +12,7 @@ html, body{
     overflow: hidden;
 }
 
+ /*not working for some reason*/
 .hero:before {
     content: "";
     display: block;
@@ -98,3 +99,4 @@ html, body{
 }
 
 /*need to change dimensions for phone size*/
+

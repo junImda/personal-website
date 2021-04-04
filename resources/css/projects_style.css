@@ -1,12 +1,12 @@
-#about-me {
-    background: black;
+#Projects{
+    background: white;
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-#about-me-header{
+#project-header{
     margin: 0px;
     padding: 0px;
     position: absolute;
@@ -16,7 +16,7 @@
     transform: translateY(-50%);
     transform: translateX(-50%);
     font-family: 'Quicksand', sans-serif;
-    color: orange;
+    color: black;
 
 }
 
@@ -31,6 +31,6 @@
     transform: translateY(-50%);
     transform: translateX(-50%);
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: black;
     word-wrap: break-word;
 }
